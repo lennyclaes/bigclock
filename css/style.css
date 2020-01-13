@@ -16,3 +16,9 @@ body {
     font-family: fantasy;
     color: #ffffff;
 }
+
+@media (max-width: 480px) {
+    .clock {
+        font-size: 150px;
+    }
+}
