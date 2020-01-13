@@ -1,7 +1,7 @@
 {
     "name": "Big Clock",
     "short_name": "Big Clock",
-    "start_url": "/bigclock",
+    "start_url": "/bigclock/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
