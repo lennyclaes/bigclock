@@ -1,0 +1,16 @@
+{
+    "name": "Big Clock",
+    "short_name": "Big Clock",
+    "start_url": "/bigclock",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "description": "Just a big boring clock.",
+    "icons": [
+        {
+            "src": "./img/clock.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
