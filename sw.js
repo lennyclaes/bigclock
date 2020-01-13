@@ -2,7 +2,7 @@ self.addEventListener('install', function(e) {
     e.waitUntil(
       caches.open('bigclock').then(function(cache) {
         return cache.addAll([
-            '/bigclock',
+            '/bigclock/',
             '/bigclock/index.html',
             '/bigclock/css/style.css',
             '/bigclock/js/app.js',
