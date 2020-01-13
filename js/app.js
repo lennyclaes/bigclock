@@ -1,5 +1,19 @@
 (() => {
+    let fullscreen = false;
     const clock = document.querySelector('#js-output');
+    clock.addEventListener('click', () => {
+        if(!fullscreen) {
+            if(document.body.requestFullscreen) {
+                document.body.requestFullscreen();
+                fullscreen = true;
+            }
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+                fullscreen = false;
+            }
+        }
+    });
 
     let now = new Date();
     let seconds = now.getSeconds();
