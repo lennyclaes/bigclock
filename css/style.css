@@ -13,7 +13,7 @@ body {
 
 .clock {
     font-size: 230px;
-    font-family: fantasy;
+    font-family: fantasy, 'Agency FB', Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
